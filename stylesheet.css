@@ -1,0 +1,188 @@
+
+.navbar-nav{
+    margin-right: 16px;
+}  
+.three-book{
+    padding: 32px 24px;
+}
+h1{
+    font-weight: bold;
+}
+.learn-something {
+    background-color:#d8d8d8;
+}
+.everyday {
+    padding: 32px 16px;
+}
+.learn-something button{
+ 
+    border-radius: 0;
+}
+
+.heading-p{
+    margin: 30px 0px;
+}
+.hurt {
+    margin: 32px 0px;
+}
+.curabitur{
+    margin: 24px 0px;
+}
+ h5{
+    font-weight: bold;
+}
+
+.sm-row{
+         padding: 16px;
+}  
+
+.footpath {
+    background-image: url(./images/footpath.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.our-campus{
+     background-image: url(./images/three-led.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.guest {
+    background-image: url(./images/uncle.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.treatment{
+    background-color: #d8d8d8;
+}
+
+.start-learning{
+    background-color: #eaebec; }
+   .start-learning h1
+    { text-align: center;
+      padding: 32px 0px;
+}
+.practice {
+    background-color: #f3f5f5;
+}
+
+ 
+.start-learning .learn-course{
+    margin: 0px 32px;
+  
+}
+
+.card-row {
+    margin: 0px 72px;
+    padding-bottom: 32px;
+}
+
+.thesis {
+    background-color: #f3f5f5;
+}
+
+
+.card{
+    height: 315px;
+}
+.exhibit {
+    padding: 32px 0px;
+}
+footer{
+    background-color: #f3f5f5;
+        height: 100px;
+    border-top: 1px solid #e0e2e2;
+    padding-top: 20px;
+}
+
+.display-small button{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    border-radius: 0;
+    text-align: start;
+}
+.display-small{
+ margin-bottom: 8px;
+}
+
+.thesis-exhibit {
+        text-align: center;
+    margin-bottom: 16px;
+}
+@media (max-width: 1999.98px) { 
+     .display-small{
+        display: none;
+    }
+    .mobil-navbar{
+        display: none;
+    }
+}
+
+/* @media (max-width: 1399.98px) {
+    .display-small{
+        display: none;
+    }
+    .mobil-navbar{
+        display: none;
+    }
+} */
+
+@media (max-width: 991.98px) {
+    header .large-navbar{
+        display: none;
+    }
+     .mobil-navbar{
+        display: flex;
+    }
+
+
+
+    .three-book{
+        padding: 0;
+    }
+    .practice .three-book{
+        display: none;
+    }
+    
+    .footpath{
+        background-image: url(./images/small-footpath.jfif);
+        height: 325px;
+    }
+    .shedule{
+        padding: 16px;
+    }
+     .our-campus{
+        background-image: url(./images/mobil-three.jfif);
+        height: 335px;
+    }
+     .guest{
+        background-image: url(./images/mob-uncle.jfif);
+        height: 325px;
+    }
+    .learn-course{
+        display: none;
+    }
+
+    .display-small{
+        display: flex;
+    }
+    .cards{
+        padding: 0;
+    }
+
+    .exhibit .col-lg-4{
+        display: none;
+    }
+
+    .hurt{
+        display: none;
+    }
+    footer p {
+        margin-top:16px;
+    }
+}
+
